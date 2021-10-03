@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+textarea {
+  margin-left: 10%;
+  margin-top: 4%;
+  padding: 10px;
+  width: 80%;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 6%;
+  color: #9445e7;
+  font-size: 50px;
+}
+
+.keyboard {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  width: 80%;
+  padding: 5px 0;
+  background-color: rebeccapurple;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  transform: bottom 0.4s;
+}
+
+.keyboard_keys {
+  text-align: center;
+}
+
+#key {
+  height: 45px;
+  width: 6%;
+  max-width: 98px;
+  margin: 3px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+}
+
+#key:active {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.backSpace {
+  width: 12%;
+}
+
+#space_key {
+  width: 36%;
+  max-width: 500px;
+  height: 45px;
+  margin: 3px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+}
+
+#space_key:active {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+.caps_lock {
+  width: 20%;
+  max-width: 200px;
+}
+
+.shift {
+  width: 20%;
+  max-width: 200px;
+}
+
+#btn_ok {
+  width: 20%;
+  max-width: 200px;
+  height: 45px;
+  margin: 3px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+}
+
+#btn_ok:active {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+.enter {
+  width: 12%;
+}
